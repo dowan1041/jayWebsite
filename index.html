@@ -11,17 +11,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>WAYMAKER CAPITAL</title>
   </head>
   <body>
     <!-- header -->
     <section id='header'>
-        <div class=" d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
-            <h5 class="my-0 mr-md-auto font-weight-normal"> Waymaker Capital</h5>
-            <nav class="d-flex align-items-center">
-                <a id='navbar-a'class="p-2" href="#about">ABOUT</a>
-                <a id='navbar-a' class="p-2" href="#">INVESTMENT</a>
-                <a id='navbar-a' class="p-2" href="#contact">CONTACT</a>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img class='navbar-brand-img' src="./assets/images/logo2.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Investment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </section>
@@ -29,7 +43,7 @@
     <!-- main page -->
 
     <section id='banner'>
-        <div class='container mt-2'>
+        <div class='container'>
             <div class="row">
                 <div class="col-md-12">
                     <img src="./assets/images/background.jpg" id='overlay-image'>
@@ -55,15 +69,18 @@
         <!-- <img src="../../../../assets/images/wave2.png" class='footer-img'> -->
         <div class="container mb-5 mt-3">
             <div class="row">
-                <div class="col-md-4 footer-box">
+                <!-- <div class="col-md-4 footer-box">
                     <img id='footerLogoImg' src="./assets/images/logo1.png">
-                </div>
-                <div class="col-md-8 footer-box">
-                    <p>jay@waymakercapital.com</p>
+                </div> -->
+                <div class="col-md-8 offset-md-4 footer-box">
+                    <p> Get in touch with us at info@waymakercapital.com</p>
                     <br>
-                    <p>NewYork | Seoul</p>
-                    <p>&#169 2020. All Rights Reserved. Privacy and Terms</p>
+                    <p>New York | Seoul</p>
                 </div>
+                <div class='col-md-12 footer-box'>
+                    <p class='text-center' id='copyright'>&#169 2020. All Rights Reserved. Privacy and Terms</p>
+                </div>
+
             </div>
         </div>
     </section>

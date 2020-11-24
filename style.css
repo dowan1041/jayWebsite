@@ -2,30 +2,6 @@ html,
 body {
   height: 100%;
 }
-#navbar-a {
-  color: rgba(0, 0, 0, 0.4);
-}
-.carousel-item {
-  height: 40rem;
-  background: #777;
-  color: white;
-  position: relative;
-}
-/* .container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-bottom: 50px;
-} */
-
-#overlay-image {
-  background-position: center;
-  background-size: cover;
-  opacity: 0.5;
-  max-width: 100%;
-  height: auto;
-}
 
 h5,
 p {
@@ -36,6 +12,32 @@ p {
   color: #224663;
 }
 
+/* navbar */
+.nav-link {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: larger;
+}
+
+.navbar-brand-img {
+  width: 40%;
+  height: auto;
+}
+
+/* body */
+#overlay-image {
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  max-width: 100%;
+  height: auto;
+}
+
+/* footer */
 #footerLogoImg {
   max-width: 50%;
+}
+
+#copyright {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.4);
 }
